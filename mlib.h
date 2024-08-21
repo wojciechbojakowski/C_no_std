@@ -3,6 +3,7 @@
 #define __MLIV__
 
 #define SYSEXIT 60
+
 void sysExit(int errcode);
 
 typedef unsigned size_t;

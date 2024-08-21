@@ -1,9 +1,16 @@
 // Ubuntu linux 64bit
-
+#include "main.h"
 #include "mlib.h"
 #include "mio.h"
 
-void _start(){
-    write(1,"Hello world",11);
-    sysExit(12);
+int main(){
+
+    char inText[11];
+
+    scan(inText);
+
+
+    print(inText);
+    print("\n");
+    return 0;
 }
