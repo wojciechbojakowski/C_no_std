@@ -2,9 +2,9 @@
 #define SYSWRITE 1
 #define SYSREAD 0
 
-#include "mio.h"
-#include "mlib.h"
-#include "mstring.h"
+#include "include/mio.h"
+#include "include/mlib.h"
+#include "include/mstring.h"
 
 void write(unsigned fd, const char *buf, size_t count){
     asm

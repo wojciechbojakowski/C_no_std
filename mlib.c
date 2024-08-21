@@ -1,8 +1,8 @@
 // Ubuntu linux 64bit
 
-#include "mlib.h"
-#include "main.h"
-#include "mio.h"
+#include "include/mlib.h"
+#include "include/main.h"
+#include "include/mio.h"
 
 void sysExit(int errcode){
     asm volatile(

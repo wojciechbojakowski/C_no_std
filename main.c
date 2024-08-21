@@ -1,7 +1,7 @@
 // Ubuntu linux 64bit
-#include "main.h"
-#include "mlib.h"
-#include "mio.h"
+#include "include/main.h"
+#include "include/mlib.h"
+#include "include/mio.h"
 
 int main(){
 
