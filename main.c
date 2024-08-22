@@ -6,11 +6,9 @@
 int main(){
 
     char inText[11];
-
-    scan(inText);
-
-
+    intToASCII(324,inText,10,10);
     print(inText);
     print("\n");
+    printnum(540);
     return 0;
 }

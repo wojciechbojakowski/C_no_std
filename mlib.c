@@ -17,7 +17,7 @@ processError(int code){
         print("\nProgram finished successfully :)\n");
     }else{
         print("\nProgram finished with error :( \n");
-        print(code);
+        printnum(code);
         print("\n");
     }
 }
